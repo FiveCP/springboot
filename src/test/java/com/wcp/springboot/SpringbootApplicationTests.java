@@ -19,13 +19,13 @@ public class SpringbootApplicationTests {
 	
 	@Test
 	public void save() {
-		ArrayList<String> hs = new ArrayList<>();
+		/*ArrayList<String> hs = new ArrayList<>();
 		hs.add("2");hs.add("3");hs.add("7");
 		String[] hs1 = (String[])hs.toArray(new String[hs.size()]);
 		stringRedisTemplate.opsForValue().set("wcp", "FiveCP");
 		stringRedisTemplate.opsForSet().add("CP",hs1);
 		Assert.assertEquals(stringRedisTemplate.opsForValue().get("wcp"),"FiveCP");
-		Assert.assertTrue(stringRedisTemplate.opsForSet().isMember("CP","2"));
+		Assert.assertTrue(stringRedisTemplate.opsForSet().isMember("CP","2"));*/
 	}
 	
  
